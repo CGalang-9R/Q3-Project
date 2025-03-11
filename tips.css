@@ -20,9 +20,13 @@ img {
 .container {
 	background-color: #F6F7F8;
 	color: #334D7D;
-	text-align: center;
+	text-align: left;
 }
 
+h1 {
+	text-align: center;
+{
+	
 a {
 	color: #F6F7F8;
 	text-decoloration: none;
