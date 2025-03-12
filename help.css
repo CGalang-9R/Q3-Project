@@ -1,3 +1,4 @@
+/* GONZALES */
 * {
 
 }
@@ -39,8 +40,8 @@ footer {
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: whitesmoke;
+    background-color: #F6F7F8;
+    color: #1F67A2;
 }
 
 .icons {
