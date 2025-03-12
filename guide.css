@@ -41,6 +41,8 @@ label {
 
 a {
 	color: #F6F7F8;
+	text-decoloration: none;
+	text-decoration: none;
 }
 
 footer {
