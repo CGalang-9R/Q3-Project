@@ -1,3 +1,5 @@
+// GONZALES, GALANG
+
 // SUBMIT INFO
 function submitInfo(){
 	var name=document.getElementById('inputName').value;
