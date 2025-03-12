@@ -40,12 +40,12 @@ function getFarePrice(){
 			journey = "Twenty";
 			seatValue = 20.00;
 		
-		} else  if (leaving1 == "na" && going1 == "buen"||leaving1 == "na" && going1 == "ayala"||leaving1 == "na" && going1 == "guad"||leaving1 == "qa" && going1 == "buen"||leaving1 == "qa" && going1 == "ayala"||leaving1 == "qa" && going1 == "maga"||leaving1 == "kam" && going1 == "ayala"||leaving1 == "kam" && going1 == "maga"||leaving1 == "kam" && going1 == "ta"||leaving1 == "acc" && going1 == "maga"||leaving1 == "acc" && going1 == "ta"||leaving1 == "sa" && going1 == "ta"||leaving1 == "guad" && going1 == "na"||leaving1 == "buen" && going1 == "na" ||leaving1 == "buen" && going1 == "qa"||leaving1 == "ayala" && going1 == "na"||leaving1 == "ayala" && going1 == "qa"||leaving1 == "ayala" && going1 == "kam"||leaving1 == "maga" && going1 == "qa"||leaving1 == "maga" && going1 == "kam"||leaving1 == "ta" && going1 == "kam"||leaving1 == "ta" && going1 == "acc"||leaving1 == "ta" && going1 == "sa")}
+		} else  if (leaving1 == "na" && going1 == "buen"||leaving1 == "na" && going1 == "ayala"||leaving1 == "na" && going1 == "guad"||leaving1 == "qa" && going1 == "buen"||leaving1 == "qa" && going1 == "ayala"||leaving1 == "qa" && going1 == "maga"||leaving1 == "kam" && going1 == "ayala"||leaving1 == "kam" && going1 == "maga"||leaving1 == "kam" && going1 == "ta"||leaving1 == "acc" && going1 == "maga"||leaving1 == "acc" && going1 == "ta"||leaving1 == "sa" && going1 == "ta"||leaving1 == "guad" && going1 == "na"||leaving1 == "buen" && going1 == "na" ||leaving1 == "buen" && going1 == "qa"||leaving1 == "ayala" && going1 == "na"||leaving1 == "ayala" && going1 == "qa"||leaving1 == "ayala" && going1 == "kam"||leaving1 == "maga" && going1 == "qa"||leaving1 == "maga" && going1 == "kam"||leaving1 == "ta" && going1 == "kam"||leaving1 == "ta" && going1 == "acc"||leaving1 == "ta" && going1 == "sa"){
 			journey = "TwentyFour";
 			seatValue = 24.00;
 	
 		
-		} else if (leaving1 == "na" && going1 == "maga"||leaving1 == "na" && going1 == "ta"||leaving1 == "qa" && going1 == "ta"||leaving1 == "maga" && going1 == "na"||leaving1 == "ta" && going1 == "na"||leaving1 == "ta" && going1 == "qa")
+		} else if (leaving1 == "na" && going1 == "maga"||leaving1 == "na" && going1 == "ta"||leaving1 == "qa" && going1 == "ta"||leaving1 == "maga" && going1 == "na"||leaving1 == "ta" && going1 == "na"||leaving1 == "ta" && going1 == "qa"){
 			journey = "TwentyEight";
 			seatValue = 28.00;
 
