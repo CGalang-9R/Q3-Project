@@ -15,7 +15,6 @@ function userName(){
 }
 
 // FOR CHECKING FARE PRICE
-// FARE PRICE
 function getFarePrice(){
 // TO GET THE VALUES CHOSEN BY THE USER FROM THE DROPDOWNS 
 	var leaving1 = document.getElementById('inputLeaving').value;
@@ -53,6 +52,46 @@ function getFarePrice(){
 		
 		window.alert('The total fare price is ' + fareValue +'. ' + 'Click the "Buy Ticket" button to purchase the ticket.').innerHTML;
 	}
+
+// FOR BUYING TICKET
+function buyTicket(){
+// TO GET THE VALUES CHOSEN BY THE USER FROM THE DROPDOWNS 
+	var leaving2 = document.getElementById('inputLeaving').value;
+	var going2 = document.getElementById('inputGoing').value
+	var discount2 = document.getElementById('inputDiscount').value;
+	var journey2;
+// PLACEHOLDER FOR THE TOTAL FARE PRICE
+	var fareValue2;
+	// TO KNOW WHEN TO APPLY THE DISCOUNT
+
+		if (leaving2 == "na" && going2 == "qa"||leaving2 == "na" && going2 == "kam"||leaving2 == "qa" && going2 == "na"||leaving2 == "qa" && going2 == "kam"||leaving2 == "qa" && going2 == "acc"||leaving2 == "kam" && going2 == "na"||leaving2 == "kam" && going2 == "qa"||leaving2 == "kam" && going2 == "acc"||leaving2 == "kam" && going2 == "sa"||leaving2 == "acc" && going2 == "qa"||leaving2 == "acc" && going2 == "kam"||leaving2 == "acc" && going2 == "sa"||leaving2 == "acc" && going2 == "ort"||leaving2 == "sa" && going2 == "kam"||leaving2 == "sa" && going2 == "acc"||leaving2 == "sa" && going2 == "ort"||leaving2 == "sa" && going2 == "sb"||leaving2 == "ort" && going2 == "acc"||leaving1 == "ort" && going1 == "sa"||leaving1 == "ort" && going1 == "sb"||leaving1 == "ort" && going1 == "boni"||leaving1 == "sb" && going1 == "sa"||leaving1 == "sb" && going1 == "ort"||leaving1 == "sb" && going1 == "boni"||leaving1 == "sb" && going1 == "guad"||leaving1 == "boni" && going1 == "ort"||leaving1 == "boni" && going1 == "sb"||leaving1 == "boni" && going1 == "guad"||leaving1 == "boni" && going1 == "buen"||leaving1 == "guad" && going1 == "sb"||leaving1 == "guad" && going1 == "boni"||leaving1 == "guad" && going1 == "buen"||leaving1 == "guad" && going1 == "ayala"||leaving1 == "buen" && going1 == "boni" ||leaving1 == "buen" && going1 == "guad"||leaving1 == "buen" && going1 == "ayala"||leaving1 == "buen" && going1 == "maga"||leaving1 == "ayala" && going1 == "guad"||leaving1 == "ayala" && going1 == "buen"||leaving1 == "ayala" && going1 == "maga"||leaving1 == "ayala" && going1 == "ta"||leaving1 == "maga" && going1 == "buen"||leaving1 == "maga" && going1 == "ayala"||leaving1 == "maga" && going1 == "ta"||leaving1 == "ta" && going1 == "ayala"||leaving1 == "ta" && going1 == "maga"){
+			journey2 = "Thirteen";
+			fareValue2 = "13.00";
+		} else if (leaving2 == "na" && going2 == "acc"||leaving2 == "na" && going2 == "sa"||leaving2 == "qa" && going2 == "sa"||leaving2 == "qa" && going2 == "ort"||leaving2 == "kam" && going2 == "ort"||leaving2 == "kam" && going2 == "sb"||leaving2 == "acc" && going2 == "na"||leaving2 == "acc" && going2 == "sb"||leaving2 == "acc" && going2 == "boni"||leaving2 == "sa" && going2 == "na"||leaving2 == "sa" && going2 == "qa"||leaving2 == "sa" && going2 == "boni"||leaving2 == "sa" && going2 == "guad"||leaving2 == "ort" && going2 == "qa"||leaving2 == "ort" && going2 == "kam"||leaving2 == "ort" && going2 == "guad"||leaving2 == "ort" && going2 == "buen"||leaving2 == "sb" && going2 == "acc"||leaving1 == "sb" && going1 == "kam"||leaving1 == "sb" && going1 == "buen"||leaving1 == "sb" && going1 == "ayala"||leaving1 == "boni" && going1 == "sa"||leaving1 == "boni" && going1 == "acc"||leaving1 == "boni" && going1 == "ayala"||leaving1 == "boni" && going1 == "maga"||leaving1 == "guad" && going1 == "sa"||leaving1 == "guad" && going1 == "ort"||leaving1 == "guad" && going1 == "maga"||leaving1 == "guad" && going1 == "ta"||leaving1 == "buen" && going1 == "ta"||leaving1 == "buen" && going1 == "sb"||leaving1 == "buen" && going1 == "ort"||leaving1 == "ayala" && going1 == "sb"||leaving1 == "ayala" && going1 == "boni"||leaving1 == "maga" && going1 == "boni"||leaving1 == "maga" && going1 == "guad"||leaving1 == "ta" && going1 == "guad"||leaving1 == "ta" && going1 == "buen"){
+			journey2 = "Sixteen";
+			fareValue2 = "16.00";
+		} else if (leaving2 == "na" && going2 == "ort"||leaving2 == "na" && going2 == "sb"||leaving2 == "na" && going2 == "boni"||leaving2 == "qa" && going2 == "sb"||leaving2 == "qa" && going2 == "boni"||leaving2 == "kam" && going2 == "boni"||leaving2 == "kam" && going2 == "guad"||leaving2 == "kam" && going2 == "buen"||leaving2 == "acc" && going2 == "guad"||leaving2 == "acc" && going2 == "buen"||leaving2 == "acc" && going2 == "ayala"||leaving2 == "sa" && going2 == "kam"||leaving2 == "sa" && going2 == "buen"||leaving2 == "sa" && going2 == "ayala"||leaving2 == "sa" && going2 == "maga"||leaving2 == "ort" && going2 == "na"||leaving2 == "ort" && going2 == "ayala"||leaving2 == "ort" && going2 == "maga"||leaving1 == "ort" && going1 == "ta"||leaving1 == "sb" && going1 == "na"||leaving1 == "sb" && going1 == "qa"||leaving1 == "sb" && going1 == "maga"||leaving1 == "sb" && going1 == "ta"||leaving1 == "boni" && going1 == "na"||leaving1 == "boni" && going1 == "qa"||leaving1 == "boni" && going1 == "kam"||leaving1 == "boni" && going1 == "ta"||leaving1 == "guad" && going1 == "qa"||leaving1 == "guad" && going1 == "kam"||leaving1 == "guad" && going1 == "acc"||leaving1 == "buen" && going1 == "kam" ||leaving1 == "buen" && going1 == "acc"||leaving1 == "buen" && going1 == "sa"||leaving1 == "ayala" && going1 == "acc"||leaving1 == "ayala" && going1 == "sa"||leaving1 == "ayala" && going1 == "ort"||leaving1 == "maga" && going1 == "sa"||leaving1 == "maga" && going1 == "ort"||leaving1 == "maga" && going1 == "sb"||leaving1 == "ta" && going1 == "ort"||leaving1 == "ta" && going1 == "sb"||leaving1 == "ta" && going1 == "boni"){
+			journey2 = "Twenty";
+			fareValue2 = "20.00";
+		} else  if (leaving2 == "na" && going2 == "buen"||leaving2 == "na" && going2 == "ayala"||leaving2 == "na" && going2 == "guad"||leaving2 == "qa" && going2 == "buen"||leaving2 == "qa" && going2 == "ayala"||leaving2 == "qa" && going2 == "maga"||leaving2 == "kam" && going2 == "ayala"||leaving2 == "kam" && going2 == "maga"||leaving2 == "kam" && going2 == "ta"||leaving2 == "acc" && going2 == "maga"||leaving2 == "acc" && going2 == "ta"||leaving2 == "sa" && going2 == "ta"||leaving2 == "guad" && going2 == "na"||leaving2 == "buen" && going2 == "na" ||leaving2 == "buen" && going2 == "qa"||leaving2 == "ayala" && going2 == "na"||leaving2 == "ayala" && going2 == "qa"||leaving2 == "ayala" && going2 == "kam"||leaving1 == "maga" && going1 == "qa"||leaving1 == "maga" && going1 == "kam"||leaving1 == "ta" && going1 == "kam"||leaving1 == "ta" && going1 == "acc"||leaving1 == "ta" && going1 == "sa"){
+			journey2 = "TwentyFour";
+			fareValue2 = "24.00";
+		} else if (leaving2 == "na" && going2 == "maga"||leaving2 == "na" && going2 == "ta"||leaving2 == "qa" && going2 == "ta"||leaving2 == "maga" && going2 == "na"||leaving2 == "ta" && going2 == "na"||leaving2 == "ta" && going2 == "qa"){
+			journey2 = "TwentyEight";
+			fareValue2 = "28.00";
+		} else if (leaving2 == going2){
+			window.alert("Please choose a different Destination.").innerHTML;
+		}
+
+		// COMPUTING FOR THE DISCOUNTED PRICE
+		// .80 IS THE SHORTCUT OF GETTING 20% DISCOUNT OFF THE REGULAR PRICE
+		if (discount2 !== "regular"){
+	 		fareValue2 = (fareValue2 * .80).toFixed(2); 
+		}
+		
+		window.alert('The total ticket price for your selection is ' + fareValue2 +'. ' + 'Proceed to the next station.').innerHTML;
+	}
+
 
 // PRINT TICKET
 function ticketPrint(){
