@@ -20,12 +20,6 @@ img {
 	width: 3%;
 }
 
-.container {
-	background-color: #F6F7F8;
-	color: #334D7D;
-	text-align: center;
-}
-
 a {
 	color: #F6F7F8;
 	text-decoloration: none;
@@ -41,4 +35,14 @@ footer {
 	width: 100%;
 	padding: 15px;
 	text-align: center
+}
+
+.container {
+	background-color: #F6F7F8;
+	color: #334D7D;
+	text-align: center;
+}
+
+.carousel {
+	width: 65%;
 }
