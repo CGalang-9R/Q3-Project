@@ -45,7 +45,7 @@ function getFarePrice(){
 			seatValue = 24.00;
 	
 		
-		} else if (leaving1 == "" && going1 == ""||leaving1 == "" && going1 == ""){
+		} else if (leaving1 == "na" && going1 == "maga"||leaving1 == "na" && going1 == "ta"||leaving1 == "qa" && going1 == "ta"||leaving1 == "maga" && going1 == "na"||leaving1 == "ta" && going1 == "na"||leaving1 == "ta" && going1 == "qa")
 			journey = "TwentyEight";
 			seatValue = 28.00;
 
