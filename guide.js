@@ -50,7 +50,7 @@ function getFarePrice(){
 	 		fareValue = (fareValue * .80).toFixed(2); 
 		}
 		
-		window.alert('The total fare price is ' + fareValue +'. ' + 'Click the "Buy Ticket" button to purchase the ticket.').innerHTML;
+		window.alert('The total fare price is ' + fareValue +'php. ' + 'Click the "Buy Ticket" button to purchase the ticket.').innerHTML;
 	}
 
 // FOR BUYING TICKET
@@ -89,7 +89,7 @@ function buyTicket(){
 	 		fareValue2 = (fareValue2 * .80).toFixed(2); 
 		}
 		
-		window.alert('The total ticket price for your selection is ' + fareValue2 +'. ' + 'Proceed to the next station.').innerHTML;
+		window.alert('The total ticket price for your trip is ' + fareValue2 +'php. ' + 'Proceed to the next station.').innerHTML;
 	}
 
 
