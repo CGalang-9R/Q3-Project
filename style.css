@@ -27,11 +27,8 @@ a {
 footer {
 	background-color: #1F67A2;
 	color: #F6F7F8;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	padding: 15px;
+	padding: 7.5px;
+   	margin-top: auto;
 	text-align: center
 }
 
