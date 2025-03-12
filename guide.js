@@ -31,7 +31,7 @@ function userName(){
 			journey = "TwentyEight";
 
 		} else if (leaving1 == "" && going1 == ""||leaving1 == "" && going1 == ""){
-			window.alert("Pls choose a different Destination").innerHTML;
+			window.alert("Please choose a different Destination.").innerHTML;
 	}
 
 // PRINT TICKET
