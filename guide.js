@@ -25,8 +25,6 @@ function getFarePrice(){
 // PLACEHOLDER FOR THE TOTAL FARE PRICE
 	var totalPrice1;
 	var seatValue;
-	var totalDisplayPrice;
-	var discountValue = parseInt("0.80");
 
 	// TO KNOW WHEN TO APPLY THE DISCOUNT
 	if (discount1 == "regular"){
