@@ -7,6 +7,12 @@ body{
 	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77c3c76f-ded1-4105-b168-383826197f62/depkin8-a0e1b52c-d733-4f01-945b-be9b82e17877.jpg/v1/fill/w_1280,h_2027,q_75,strp/the_knapford_station_thomas_the_tank_engine_by_pikkolapungu_depkin8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjAyNyIsInBhdGgiOiJcL2ZcLzc3YzNjNzZmLWRlZDEtNDEwNS1iMTY4LTM4MzgyNjE5N2Y2MlwvZGVwa2luOC1hMGUxYjUyYy1kNzMzLTRmMDEtOTQ1Yi1iZTliODJlMTc4NzcuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.0aYg-E1X0Yv_EBUOqnsB76_PcZvzPOqzRx54KMLftO8);
 	background-size: cover;
 	backgroun-repeat: no-repeat;
+	font-family: "Merriweather", serif;
+  	font-optical-sizing: auto;
+ 	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    	"wdth" 100;
 }
 
 nav {
